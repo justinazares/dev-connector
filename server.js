@@ -19,7 +19,7 @@ const db = require('./config/keys').mongoURI;
 // Connect to MongoDB(uncomment when off work network)
 // mongoose
 //   .connect(db)
-//   .then(() => console.log("MongoDB Connected"))
+//   .then(() => console.log('MongoDB Connected'))
 //   .catch(err => console.log(err));
 
 // Passport Middleware
